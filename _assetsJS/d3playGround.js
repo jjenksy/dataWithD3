@@ -9,17 +9,6 @@
 define(['d3'],function (d3) {
     'use strict';
 
-    //create an pointless constructor
-    var D3PlayGround = function () {
-    };
-
-
-    /**
-     * Create a bargauge object that will be the root element
-     * @type {Object}
-     */
-    D3PlayGround.prototype = Object.create(null);
-    D3PlayGround.prototype.constructor = D3PlayGround;
 
 
 
@@ -36,8 +25,7 @@ define(['d3'],function (d3) {
 
 
 
-    // return the PowerOneLine module
-    return D3PlayGround;
+
 
 
 });
